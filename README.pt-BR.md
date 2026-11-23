@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="store/images/screenshot-s1-pt_BR.png" width="820" alt="Comparação antes/depois num vídeo 240p">
+  <img src="docs/hero-pt_BR.png" width="820" alt="Comparação antes/depois num vídeo 240p">
 </p>
 
 ---
