@@ -1,0 +1,132 @@
+{
+  "extName": {
+    "message": "Glaux"
+  },
+  "extDesc": {
+    "message": "Upscale e nitidez em tempo real na GPU para vídeos da web. Um clique no player do YouTube, comparação antes/depois, 100% local."
+  },
+  "cmdToggle": {
+    "message": "Ligar/desligar a melhoria no vídeo principal"
+  },
+  "cmdCompare": {
+    "message": "Ligar/desligar a comparação antes/depois"
+  },
+  "btnEnable": {
+    "message": "Melhorar vídeo (Alt+Shift+R)"
+  },
+  "btnDisable": {
+    "message": "Desligar Glaux (Alt+Shift+R)"
+  },
+  "btnCompare": {
+    "message": "Comparar antes/depois (Alt+Shift+C)"
+  },
+  "labelOriginal": {
+    "message": "Original"
+  },
+  "labelEnhanced": {
+    "message": "Glaux"
+  },
+  "toastOn": {
+    "message": "Glaux ativado"
+  },
+  "toastOff": {
+    "message": "Glaux desativado"
+  },
+  "splitHandle": {
+    "message": "Arraste para comparar"
+  },
+  "errDrm": {
+    "message": "Vídeo protegido (DRM): o navegador não permite acessar os pixels."
+  },
+  "errCors": {
+    "message": "Vídeo de outro domínio sem CORS: o navegador não permite acessar os pixels."
+  },
+  "errGpu": {
+    "message": "Não foi possível iniciar a renderização na GPU (WebGL2)."
+  },
+  "popPower": {
+    "message": "Ligar ou desligar o Glaux em todo lugar"
+  },
+  "popSearching": {
+    "message": "Procurando vídeos…"
+  },
+  "popNone": {
+    "message": "Nenhum vídeo nesta página ainda."
+  },
+  "popActive": {
+    "message": "Melhorando $COUNT$ de $TOTAL$ vídeo(s)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "popIdle": {
+    "message": "$TOTAL$ vídeo(s) encontrado(s) · desligado",
+    "placeholders": {
+      "total": {
+        "content": "$1"
+      }
+    }
+  },
+  "popReload": {
+    "message": "Recarregue a página para usar o Glaux aqui."
+  },
+  "popNoAccess": {
+    "message": "O Glaux não pode rodar nesta página."
+  },
+  "popEnableTab": {
+    "message": "Melhorar esta aba"
+  },
+  "popDisableTab": {
+    "message": "Desligar nesta aba"
+  },
+  "popStrength": {
+    "message": "Nitidez"
+  },
+  "popSoft": {
+    "message": "Suave"
+  },
+  "popBalanced": {
+    "message": "Equilibrado"
+  },
+  "popIntense": {
+    "message": "Intenso"
+  },
+  "popDenoise": {
+    "message": "Proteção de compressão"
+  },
+  "popDenoiseHint": {
+    "message": "Não realça ruído nem blocos de compressão"
+  },
+  "popAuto": {
+    "message": "Melhorar todo vídeo automaticamente"
+  },
+  "popButton": {
+    "message": "Controles dentro do player"
+  },
+  "popSite": {
+    "message": "Ativo neste site"
+  },
+  "popMaxOut": {
+    "message": "Saída máxima"
+  },
+  "popShortcuts": {
+    "message": "Atalhos"
+  },
+  "popToggle": {
+    "message": "liga/desliga"
+  },
+  "popCompare": {
+    "message": "comparar"
+  },
+  "popLocal": {
+    "message": "Roda 100% no seu dispositivo · nenhum dado coletado"
+  },
+  "popGlass": {
+    "message": "Fundo transparente"
+  }
+}

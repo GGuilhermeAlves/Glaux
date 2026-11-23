@@ -1,0 +1,132 @@
+{
+  "extName": {
+    "message": "Glaux"
+  },
+  "extDesc": {
+    "message": "Real-time GPU upscaling and sharpening for web videos. One click in the YouTube player, before/after split view, 100% local."
+  },
+  "cmdToggle": {
+    "message": "Turn enhancement on/off for the main video"
+  },
+  "cmdCompare": {
+    "message": "Turn before/after comparison on/off"
+  },
+  "btnEnable": {
+    "message": "Enhance video (Alt+Shift+R)"
+  },
+  "btnDisable": {
+    "message": "Turn off Glaux (Alt+Shift+R)"
+  },
+  "btnCompare": {
+    "message": "Compare before/after (Alt+Shift+C)"
+  },
+  "labelOriginal": {
+    "message": "Original"
+  },
+  "labelEnhanced": {
+    "message": "Glaux"
+  },
+  "toastOn": {
+    "message": "Glaux on"
+  },
+  "toastOff": {
+    "message": "Glaux off"
+  },
+  "splitHandle": {
+    "message": "Drag to compare"
+  },
+  "errDrm": {
+    "message": "Protected video (DRM): the browser does not allow access to its pixels."
+  },
+  "errCors": {
+    "message": "Video from another domain without CORS: the browser does not allow access to its pixels."
+  },
+  "errGpu": {
+    "message": "Could not start the GPU renderer (WebGL2)."
+  },
+  "popPower": {
+    "message": "Turn Glaux on or off everywhere"
+  },
+  "popSearching": {
+    "message": "Looking for videos…"
+  },
+  "popNone": {
+    "message": "No video on this page yet."
+  },
+  "popActive": {
+    "message": "Enhancing $COUNT$ of $TOTAL$ video(s)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "popIdle": {
+    "message": "$TOTAL$ video(s) found · off",
+    "placeholders": {
+      "total": {
+        "content": "$1"
+      }
+    }
+  },
+  "popReload": {
+    "message": "Reload the page to use Glaux here."
+  },
+  "popNoAccess": {
+    "message": "Glaux can't run on this page."
+  },
+  "popEnableTab": {
+    "message": "Enhance this tab"
+  },
+  "popDisableTab": {
+    "message": "Turn off in this tab"
+  },
+  "popStrength": {
+    "message": "Sharpness"
+  },
+  "popSoft": {
+    "message": "Soft"
+  },
+  "popBalanced": {
+    "message": "Balanced"
+  },
+  "popIntense": {
+    "message": "Intense"
+  },
+  "popDenoise": {
+    "message": "Compression guard"
+  },
+  "popDenoiseHint": {
+    "message": "Doesn't sharpen noise or blocky artifacts"
+  },
+  "popAuto": {
+    "message": "Auto-enhance every video"
+  },
+  "popButton": {
+    "message": "Controls inside the player"
+  },
+  "popSite": {
+    "message": "Enabled on this site"
+  },
+  "popMaxOut": {
+    "message": "Max output"
+  },
+  "popShortcuts": {
+    "message": "Shortcuts"
+  },
+  "popToggle": {
+    "message": "toggle"
+  },
+  "popCompare": {
+    "message": "compare"
+  },
+  "popLocal": {
+    "message": "Runs 100% on your device · no data collected"
+  },
+  "popGlass": {
+    "message": "Transparent background"
+  }
+}

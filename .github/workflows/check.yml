@@ -1,0 +1,34 @@
+name: Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: JavaScript syntax
+        run: for f in $(find extension -name '*.js'); do node --check "$f"; done
+
+      - name: Manifest and translations
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          json.load(open("extension/manifest.json"))
+          locales = {p.split("/")[-2]: json.load(open(p)) for p in glob.glob("extension/_locales/*/messages.json")}
+          base = set(locales["en"])
+          bad = {k: sorted(base ^ set(v)) for k, v in locales.items() if set(v) != base}
+          if bad:
+              print("Translation keys differ from en:", bad); sys.exit(1)
+          print("ok:", ", ".join(sorted(locales)))
+          PY
+
+      - name: Build zips
+        run: ./scripts/pack.sh
