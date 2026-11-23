@@ -128,7 +128,7 @@ There is no build step. Edit files in `extension/`, then click ↻ on the extens
 ./scripts/pack.sh        # → dist/glaux-1.0.0-chrome.zip + dist/glaux-1.0.0-firefox.zip
 ```
 
-Pushing a tag `vX.Y.Z` (matching the manifest version) makes GitHub Actions build both zips and publish a release. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Publishing a GitHub Release with a tag `vX.Y.Z` (matching the manifest version), or pushing that tag, makes GitHub Actions build both zips and attach them to the release. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Adding a language: copy `extension/_locales/en/messages.json` to `extension/_locales/<code>/messages.json` and translate the `message` values.
 
