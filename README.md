@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/hero-en.png" width="820" alt="Before/after split on a 240p video">
+  <img src="docs/hero-2-en.png" width="860" alt="Before/after split on a 480p video">
 </p>
 
 ---
