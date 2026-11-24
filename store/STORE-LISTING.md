@@ -128,7 +128,7 @@ The extension's single purpose is to enhance any HTML5 video the user watches, o
 
 1. Confira o nome no `LICENSE` (hoje está `GGuilhermeAlves`).
 2. Atualize o link "Chrome Web Store: coming soon" nos READMEs depois que a extensão for aprovada.
-3. Rode `./scripts/pack.sh`, que gera `dist/glaux-1.0.0-chrome.zip` e `dist/glaux-1.0.0-firefox.zip`.
+3. Rode `./scripts/pack.sh`, que gera `dist/glaux-1.0.1-chrome.zip` e `dist/glaux-1.0.1-firefox.zip`.
 4. No Developer Dashboard (taxa única de cadastro de desenvolvedor), clique em **New item** e envie o `-chrome.zip`.
 5. Preencha "Store listing" e "Privacy" com os textos acima e envie as imagens.
 6. Em "Distribution", escolha Public e todos os países.

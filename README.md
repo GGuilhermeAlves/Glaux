@@ -23,7 +23,11 @@
 </p>
 
 <p align="center">
-  <img src="docs/hero-2-en.png" width="860" alt="Before/after split on a 480p video">
+  <img src="docs/hero-3-en.png" width="860" alt="Pixel-art owls: blurry original on the left, sharp Glaux output on the right">
+</p>
+
+<p align="center">
+  <img src="docs/demo-en.png" width="860" alt="Glaux in action: player button, before/after split and popup">
 </p>
 
 ---
@@ -125,7 +129,7 @@ scripts/pack.sh            builds dist/glaux-<version>-chrome.zip and -firefox.z
 There is no build step. Edit files in `extension/`, then click ↻ on the extension card in `chrome://extensions` (or **Reload** in Firefox's `about:debugging`) and reload the page. The code uses `globalThis.browser ?? globalThis.chrome` with promise-based APIs, so the same files run in both browsers. `pack.sh` writes a clean manifest for each store. To package a release:
 
 ```bash
-./scripts/pack.sh        # → dist/glaux-1.0.0-chrome.zip + dist/glaux-1.0.0-firefox.zip
+./scripts/pack.sh        # → dist/glaux-1.0.1-chrome.zip + dist/glaux-1.0.1-firefox.zip
 ```
 
 Publishing a GitHub Release with a tag `vX.Y.Z` (matching the manifest version), or pushing that tag, makes GitHub Actions build both zips and attach them to the release. See [CONTRIBUTING.md](CONTRIBUTING.md).

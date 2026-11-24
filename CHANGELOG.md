@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 — 2026-11-24
+- New icon: the little owl redrawn as 56×56 pixel art (white V brows, throat collar, spotted crown and wings), with a hand-tuned 16 px version for the toolbar.
+- New README hero and demo images, plus refreshed store images.
+
 ## 1.0.0 — 2026-11-22
 - First release, named Glaux, with a pixel Little Owl icon (Athene noctua glaux).
 - WebGL2 pipeline: Catmull-Rom upscale with anti-ringing, then RCAS-style contrast-adaptive sharpening with a compression guard.
